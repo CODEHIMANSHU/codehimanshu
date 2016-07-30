@@ -13,22 +13,69 @@
     <body style="height:100%">
 
 <!--********************************************HOMEPAGE*********************************************-->
+      <!--My pic-->
+      <img src="img/me.png" style="position:absolute; margin-top:20vh; margin-left:20vh; z-index:2;" height=60%; width=30%;> 
       <!--Homepage parralax image 1-->
-      <div class="parallax-container" style="height:35%; z-index:0;">
+      <div class="parallax-container" id="home" style="height:30%; z-index:0;">
         <div class="parallax"><img src="img/bg1.jpg"></div>
       </div>
       <!--homepage my name and tagline in center-->
-      <div class="section white" style="height:30% z-index:0;">
+      <div class="section " style="height:30% z-index:0;">
         <div class="row container">
-          <h2 class="header center  ">HIMANSHU AGRAWAL</h2>
-          <h5><p class="grey-text text-darken-3 lighten-3 center">A Learning Developer</p></h5>
+          <div class="col s6">
+          </div>
+          <div class="col s6" style="z-index:2">
+            <h2 class="header center bold">HIMANSHU AGRAWAL</h2>
+            <h5><p class="grey-text text-darken-3 lighten-3 center">A Learning Developer</p></h5>
+          </div>
         </div>
       </div>
-      <!--homepage parralax image 2-->
+      <!--homepage parralax image 2 and down arrow-->
       <div class="parallax-container" style="height:35%; z-index:0; ">
         <div class="parallax"><img src="img/bg1.jpg"></div>
-        <img src="img/down.png" height=50px style="margin-top:100px; margin-left:48%">
+        <a href="#skills"><img src="img/down.png" height=50px style="margin-top:18vh; margin-left:48%"></a>
       </div>
+
+<!--********************************************SKILLS PAGE*********************************************-->
+      <!--Skills page up arrow-->
+      <div id="skills" class="parallax-container" style="height:10%; z-index:0; ">
+        <div class="parallax blue"></div>
+          <a href="#home"><img src="img/up.png" height=50px style="margin-top:10px; margin-left:48%"></a>
+      </div>
+      <!-- Skills page section-->
+      <div class="section blue" style="height:80%; z-index:0;">
+        <div class="row container">
+          <h2><p class="center" style="margin: 0px 0px 0px 0px;">SKILLS</p></h2>
+          <ul id="staggered-test">
+            <li class="" style="transform: translateX(0px); opacity: 1;">
+              <h4><a href="#" class="black-text">HTML5</a></h4> 
+            </li>
+            <li class="" style="transform: translateX(0px); opacity: 1;">
+              <h4><a href="#" class="black-text">CSS3</a></h4> 
+            </li>
+            <li class="" style="transform: translateX(0px); opacity: 1;">
+              <h4><a href="#" class="black-text">PHP</a></h4> 
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Skills page down arrow-->  
+      <div class="parallax-container" id="skills" style="height:10%; z-index:0; ">
+        <div class="parallax blue"></div>
+        <a href="#contact"><img src="img/down.png" height=50px style="margin-top:10px; margin-left:48%"></a>
+      </div>
+
+<!--*******************************************CONTACT US*********************************************-->
+      <div id="contact" class="parallax-container" style="height:10%; z-index:0; ">
+        <div class="parallax white "></div>
+        <a href="#skills  "><img src="img/up.png" height=50px style="margin-top:10px; margin-left:48%"></a>
+      </div>
+      <div class="parallax-container" style="height:90%; z-index:0;">
+        <div class="parallax white">
+        </div>
+      </div>
+
+
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
