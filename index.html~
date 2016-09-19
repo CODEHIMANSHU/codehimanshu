@@ -12,7 +12,7 @@
 
     <body style="height:100%">
 
-<!--********************************************HOMEPAGE************************-->
+<!--********************************************HOMEPAGE*********************************************-->
       <!--My pic-->
       <img src="img/me.png" style="position:absolute; margin-top:20vh; margin-left:20vh; z-index:2;" height=60%; width=30%;> 
       <!--Homepage parralax image 1-->
